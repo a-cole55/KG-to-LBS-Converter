@@ -71,9 +71,23 @@ h1{
   }
 }
 @media screen and (max-width:460px){
+  label{
+    font-size: 4rem;
+    margin-top:5%;
+  }
   input{
-    width:300px;
+    width:260px;
     height:40px;
-    margin:2% 0 0 3%;
+    margin:2% 0 0 10%;
+  }
+  body{
+    background: cover top right;
+    background-repeat:no-repeat;
+    height: 704px;
+  }
+  button{
+    margin:2% 1% 0 0;
+    font:2.5rem bold;
+    width:128px
   }
 }
